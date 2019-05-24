@@ -1,0 +1,49 @@
+@media screen and (max-width:1024px){
+    .left__nav-block{
+        margin-left: 0px;
+    }
+    .profile_email{
+        font-size: 14px;
+    }
+    .your__plan{
+        font-size: 16px;
+    }
+    .divider_2{
+        margin-right: 10px;
+    }
+    .buttons{
+        width: 210px;
+        margin-bottom: 10px;
+    }
+    .details_box{
+        flex-wrap: wrap;
+    }
+    .ip_box{
+        width: 135px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:769px){
+    .main__content{
+        margin: 20px;
+    }
+    .buttons{
+        width: 100%;
+    }
+    .fixed{
+        display: none;
+    }
+}
+@media screen and (max-width:576px){
+    .date_wrap{
+        flex-direction: column;
+    }
+    .hellper_class,
+    .data_box{
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .data_arrow {
+        top: 12px;
+    }
+}

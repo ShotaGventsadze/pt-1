@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>PROJECT</title>
+</head>
+
+<body class="body">
+
+    <div class="container">
+        <section class="parent__section">
+            <div class="row">
+                <div class="col-lg-3 col-md-12  fixed">
+                    <div class="left__nav_wrapper">
+                        <div class="left__nav-block">
+                            <ul>
+                                <li class="menu__li">
+                                    <i class="icons fas fa-globe-europe"></i>
+                                    Osite.com
+                                    <div class="li__overlay"></div>
+                                </li>
+                                <li class="menu__li drop">
+                                    <i class="icons fas fa-chart-bar"></i>
+                                    Analitycs
+                                    <i class="arr_right fas fa-angle-right"></i>
+                                    <div class="li__overlay"></div>
+                                    <ul class="drop_ul">
+                                        <li class="drop_li">
+                                            Analitycs inner 1
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                        <li class="drop_li">
+                                            Analitycs inner 2
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                        <li class="drop_li">
+                                            Analitycs inner 3
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__li drop">
+                                    <i class="icons fas fa-briefcase"></i>
+                                    Setups
+                                    <i class="arr_right fas fa-angle-right"></i>
+                                    <div class="li__overlay"></div>
+                                    <ul class="drop_ul">
+                                        <li class="drop_li">
+                                            Setups inner 1
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                        <li class="drop_li">
+                                            Setups inner 2
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                        <li class="drop_li">
+                                            Setups inner 3
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__li drop">
+                                    <i class="icons fas fa-bell"></i>
+                                    Notfications <span class="notfications_out"></span>
+                                    <i class="arr_right fas fa-angle-right"></i>
+                                    <div class="li__overlay"></div>
+                                    <ul class="drop_ul notficati">
+                                        <li class="drop_li">
+                                            Notfications inner 1
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                        <li class="drop_li">
+                                            Notfications inner 2
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                        <li class="drop_li">
+                                            Notfications inner 3
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                        <li class="drop_li">
+                                            Notfications inner 4
+                                            <i class="arr_right fas fa-angle-right"></i>
+                                            <div class="drop_li__overlay"></div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__li">
+                                    <i class="icons fas fa-power-off"></i>
+                                    Logout
+                                    <div class="li__overlay"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="profile__wrapper ">
+                            <div class="profile__box">
+                                <img class="profile__img" src="https://randomuser.me/api/portraits/thumb/women/88.jpg"
+                                    alt="img">
+                                <ul class="profile__ul">
+                                    <li class="profile__li profile_name">sigrun dahm</li>
+                                    <li class="profile__li profile_email">sigrun.dahm@example.com</li>
+                                    <li class="profile__li your__plan">your plan : standard</li>
+                                </ul>
+                                <button id="planBtn">upgrade your plan</button>
+                            </div>
+                            <div class="plan__box">
+                                <h1>plan uses</h1>
+                                <div class="clicks__wrapper d-flex">
+                                    <div class="clicks_box">
+                                        <p class="points">2,400</p>
+                                        <p>clicks reviewed</p>
+                                    </div>
+                                    <div class="divider_2"></div>
+                                    <div class="clicks_box">
+                                        <p class="points">5000</p>
+                                        <p>monthly clicks</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12">
+                    <div class="main__content">
+                        <div class="main_content_wrap">
+                            <div class="row">
+                                <div class="col-lg-4col-md-4 col-sm-12">
+                                    <h1 class="main_title">stats</h1>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-sm-12">
+                                    <div class="date_wrap d-flex">
+                                        <div class="data_box relative">
+                                            <i class="calendar fas fa-calendar-alt"></i>
+                                            <input type="datetime-local" class="data_time"
+                                                value="2014-01-02T11:42:13.510" name="" id="">
+                                        </div>
+                                        <div class="data_box relative">
+                                            <i class="calendar fas fa-calendar-alt"></i>
+                                            <input type="datetime-local" class="data_time"
+                                                value="2014-01-02T11:42:13.510" name="" id="">
+                                        </div>
+                                        <div class="input-group date relative" id="datetimepicker1">
+                                            <input type="text" name="date" placeholder="custom"
+                                                class="data_time hellper_class" id="datepick" />
+                                            <span class="input-group-addon relative">
+                                                <span class="data_arrow">
+                                                    <i class="fas fa-chevron-down"></i>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fraud__wrapper">
+                                <div class="row">
+                                    <div class="col-lg-6 divider_3">
+                                        <div class="fraud_box">
+                                            <h1 class="fraud__title">fraud threat scrore</h1>
+                                            <p class="fraud__intro">fraud levels</p>
+                                        </div>
+                                        <div class="fraud__threats">
+                                            <div class="measuring__box">
+                                                <div class="borders measuring_1"></div>
+                                                <div class="borders measuring_2"></div>
+                                                <div class="borders measuring_3"></div>
+                                                <p class="measuring_num">2.3</p>
+                                                <p class="measuring_intro">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                            <div class="ip__box d-flex">
+                                                <article class="articles">
+                                                    <h1>cleans ips</h1>
+                                                    <p>300 clicks, 20%</p>
+                                                </article>
+                                                <article class="articles">
+                                                    <h1>cleans ips</h1>
+                                                    <p>300 clicks, 20%</p>
+                                                </article>
+                                                <article class="articles">
+                                                    <h1>cleans ips</h1>
+                                                    <p>300 clicks, 20%</p>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="blocked__fraud_wrap">
+                                            <h1 class="blocked_title">Blocked fraud type</h1>
+                                            <div class="ip_skill_box">
+                                                <article class="d-flex skill_article">
+                                                    <span>Know Fraud IP</span>
+                                                    <span>150 Clicks,10%</span>
+                                                </article>
+                                                <div class="skill_divider"></div>
+                                            </div>
+                                            <div class="ip_skill_box">
+                                                <article class="d-flex skill_article">
+                                                    <span>Know Fraud IP</span>
+                                                    <span>150 Clicks,10%</span>
+                                                </article>
+                                                <div class="skill_divider1"></div>
+                                            </div>
+                                            <div class="ip_skill_box">
+                                                <article class="d-flex skill_article">
+                                                    <span>Know Fraud IP</span>
+                                                    <span>150 Clicks,10%</span>
+                                                </article>
+                                                <div class="skill_divider2"></div>
+                                            </div>
+                                            <div class="ip_skill_box">
+                                                <article class="d-flex skill_article">
+                                                    <span>Know Fraud IP</span>
+                                                    <span>150 Clicks,10%</span>
+                                                </article>
+                                                <div class="skill_divider3"></div>
+                                            </div>
+                                            <div class="ip_skill_box">
+                                                <article class="d-flex skill_article">
+                                                    <span>Know Fraud IP</span>
+                                                    <span>150 Clicks,10%</span>
+                                                </article>
+                                                <div class="skill_divider4"></div>
+                                            </div>
+                                            <div class="vpn_wrapper d-flex">
+                                                <p class="vpn">VPN <span>not enabled</span></p>
+                                                <p class="setting">Go to settings</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details__wrap">
+                                <div class="details_box d-flex">
+                                    <h1 class="details_title">Details</h1>
+                                    <p class="download">Download Result
+                                        <span><i class="fas fa-download"></i></span>
+                                    </p>
+                                </div>
+                                <div class="buttons__wrapper">
+                                    <button class="buttons">
+                                        fraud score: 5 and greater</button>
+                                    <button class="buttons">
+                                        country: russia</button>
+                                    <button class="buttons">
+                                        ad platform: google ads</button>
+                                    <button class="buttons">
+                                        ad platform: google ads</button>
+                                    <button class="buttons">
+                                        <span><i class="filter fas fa-sliders-h"></i></span>
+                                        add filter
+                                    </button>
+                                </div>
+                                <div class="details_box d-flex">
+                                    <div class="ip_box">
+                                        <h1>ip address</h1>
+                                        <p>107.777.255</p>
+                                        <p>107.777.255</p>
+                                        <p>107.777.255</p>
+                                        <p>107.777.255</p>
+                                        <p>107.777.255</p>
+                                    </div>
+                                    <div class="ip_box">
+                                        <h1>fraoud score</h1>
+                                        <p>6.3</p>
+                                        <p>6.3</p>
+                                        <p>6.3</p>
+                                        <p>6.3</p>
+                                        <p>6.3</p>
+                                    </div>
+                                    <div class="ip_box">
+                                        <h1>status</h1>
+                                        <p class="d-flex relative">
+                                            <span class="on_off"></span> auto blocked
+                                            <span class="turn_labels"></span>
+                                        </p>
+                                        <p class="d-flex relative">
+                                            <span class="on_off off"></span> unblocked
+                                            <span class="turn_labels off"></span>
+                                        </p>
+                                        <p class="d-flex relative">
+                                            <span class="on_off off"></span> unblocked
+                                            <span class="turn_labels off"></span>
+                                        </p>
+                                        <p class="d-flex relative">
+                                            <span class="on_off off"></span> unblocked
+                                            <span class="turn_labels off"></span>
+                                        </p>
+                                        <p class="d-flex relative">
+                                            <span class="on_off"></span> auto blocked
+                                            <span class="turn_labels"></span>
+                                        </p>
+                                    </div>
+                                    <div class="ip_box">
+                                        <h1>clicks</h1>
+                                        <p>1</p>
+                                        <p>1</p>
+                                        <p>1</p>
+                                        <p>1</p>
+                                        <p>1</p>
+                                    </div>
+                                    <div class="ip_box">
+                                        <h1>first click</h1>
+                                        <p>12-08-18 | 22:15</p>
+                                        <p>12-08-18 | 22:15</p>
+                                        <p>12-08-18 | 22:15</p>
+                                        <p>12-08-18 | 22:15</p>
+                                        <p>12-08-18 | 22:15</p>
+                                    </div>
+                                    <div class="ip_box">
+                                        <h1>country</h1>
+                                        <p>
+                                            <img src="img/GEL.png" alt="country logo">
+                                            geirgia
+                                        </p>
+                                        <p>
+                                            <img src="img/GEL.png" alt="country logo">
+                                            geirgia
+                                        </p>
+                                        <p>
+                                            <img src="img/GEL.png" alt="country logo">
+                                            geirgia
+                                        </p>
+                                        <p>
+                                            <img src="img/GEL.png" alt="country logo">
+                                            geirgia
+                                        </p>
+                                        <p>
+                                            <img src="img/GEL.png" alt="country logo">
+                                            geirgia
+                                        </p>
+                                    </div>
+                                    <div class="ip_box">
+                                        <h1>os & browser</h1>
+                                        <p>OS:ios.2017</p>
+                                        <p>OS:ios.2017</p>
+                                        <p>OS:ios.2017</p>
+                                        <p>OS:ios.2017</p>
+                                        <p>OS:ios.2017</p>
+                                    </div>
+                                    <div class="ip_box">
+                                        <h1>ISP</h1>
+                                        <p>t-mobile USA inc</p>
+                                        <p>t-mobile USA inc</p>
+                                        <p>t-mobile USA inc</p>
+                                        <p>t-mobile USA inc</p>
+                                        <p>t-mobile USA inc</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
+        integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous">
+    </script>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
