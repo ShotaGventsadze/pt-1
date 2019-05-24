@@ -22,6 +22,18 @@
     font-weight: bold;
     font-size: 22px;
     letter-spacing: 2px;
+    position: relative;
+    &::after{
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: $Green;
+        position: absolute;
+        top: 8px;
+        right: 39px;
+    
+    }
 }
 .profile_email{
     font-size: 18px;

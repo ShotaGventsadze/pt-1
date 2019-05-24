@@ -62,6 +62,13 @@
     .burger{
         span{
             right: 20px;
+            left: unset;
+            top: 20px;
+        }
+    }
+    .main_content_wrap {
+        .main_title{
+            margin-left: 0px;
         }
     }
 }
