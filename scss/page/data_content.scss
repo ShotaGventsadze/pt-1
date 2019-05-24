@@ -1,0 +1,39 @@
+// title and data content
+.main_content_wrap{
+    margin-top: 20px;
+    .main_title{
+        font-family: $Main_1;
+        font-size: 22px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+}
+.data_time{
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: $White;
+}
+
+.data_arrow{
+    position: absolute;
+    right: 13px;
+    top: 2px;
+    font-size: 18px;
+    color: $White;
+}
+.calendar{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    font-size: 18px;
+}
+.data_box{
+    width: 140px;
+    margin-right: 10px;
+    padding-left: 22px;
+    border-radius: 5px;
+    background: $Gray;
+    color: $White;
+}

@@ -1,0 +1,94 @@
+// details content
+.details__wrap{
+    margin-top: 30px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    padding: 10px;
+}
+.details_box{
+    justify-content: space-between;
+    align-items: center;
+}
+.details_title{
+    font-family: $Main_1;
+    font-size: 22px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.download{
+    font-family: $Main_2;
+    font-family: 18px;
+    color: $Blue;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+.buttons__wrapper{
+    margin: 20px auto;
+}
+.buttons{
+    outline: none !important;
+    border: none;
+    padding: 6px;
+    text-transform: capitalize;
+    background: $Gray;
+    color: $Black;
+    height: 40px;
+    transition: all .3s linear;
+    width: 190px;
+    .filter{
+        transform: rotate(90deg)
+    }
+    &:hover{
+        color: blue;
+    }
+}
+.X{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ip_box{
+    h1{
+        font-family: $Main_1;
+        font-size: 16px;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        margin-bottom: 5px;
+        font-family: $Main_2;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+}
+.on_off{
+    width: 30px;
+    height: 20px;
+    background: $Red;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+    transition: all .3s linear;
+    &.off{
+        background: rgba(60, 59, 59, 0.211765);
+        transition: all .3s linear;
+    }
+}
+.turn_labels{
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 13px;
+    background: #fff;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s linear;
+    &.off{
+        left: 0;
+        transition: all .3s linear;
+    }
+}

@@ -1,0 +1,101 @@
+.profile__wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.profile__img{
+    border: 2px solid $White;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+}
+.profile__li{
+    text-align: center;
+    font-family: $Main_2;
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.profile_name{
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+.profile_email{
+    font-size: 18px;
+}
+.your__plan{
+    color: $Green;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+#planBtn{
+    font-family: $Main_1;
+    background: $Green;
+    color: $White;
+    padding: 15px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.plan__box{
+    margin-left: 20px;
+    h1{
+        font-family: $Main_1;
+        font-size: 18px;
+        text-transform: capitalize;
+        position: relative;
+        &::after{
+            content: '';
+            width: 100%;
+            height: 6px;
+            border-radius: 50px;
+            background: #a9f1ad;
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        &::before{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            content: '';
+            width: 70%;
+            height: 6px;
+            border-radius: 50px;
+            background: $Green;
+            display: block;
+        }
+    }
+}
+.clicks__wrapper{
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.clicks_box{
+    p{
+        font-family: $Main_2;
+        margin: 10px auto;
+        text-transform: capitalize;
+    }
+}
+.points{
+    font-family: $Main_1 !important;
+    font-size: 28px;
+}
+.divider_2{
+    content: '';
+    width: 3px;
+    height: 73px;
+    background: #d2d0d0;
+    display: block;
+    margin-right: 20px;
+}

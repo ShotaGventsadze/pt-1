@@ -5,11 +5,11 @@ const notficati = document.querySelectorAll('.notficati .drop_li').length;
 const labels = document.querySelectorAll('.turn_labels');
 const onOff = document.querySelectorAll('.on_off');
 const burger = document.querySelector('.burger');
-
+const deleteButtons = [...document.querySelectorAll('.X')];
 
 notficationsOut.textContent = notficati;
-// funtions
 
+// funtions
 function leftNavClick(item) {
     item.addEventListener('click', (e) => {
         const ul = document.querySelector('.drop_ul')
@@ -40,6 +40,11 @@ function changeLabels(item) {
     });
 }
 
+function deleteDetailsButton(item) {
+    item.addEventListener('click',(e)=>{
+        e.target.parentElement.style.display = 'none'; 
+    })
+}
 // eventlisteners 
 
 burger.addEventListener('click', () => {
@@ -48,7 +53,9 @@ burger.addEventListener('click', () => {
     sss.classList.toggle('toggler');
     menu.classList.toggle('open');
 })
-
+deleteButtons.forEach(item=>{
+    deleteDetailsButton(item);
+})
 labels.forEach(item => {
     changeLabels(item);
 })

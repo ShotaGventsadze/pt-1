@@ -1,10 +1,13 @@
 // main moduls for css
 @import 'modules/variables';
-@import 'modules/classes';
+@import 'modules/base';
 @import 'modules/reset';
 @import 'modules/fonts';
 
 // page moduls for css
 @import 'page/left__nav';
-@import 'page/main_content';
+@import 'page/profile';
+@import 'page/data_content';
+@import 'page/fraud_content';
+@import 'page/details_content';
 @import 'page/responsive';

@@ -1,0 +1,89 @@
+.body{
+    background: lightblue;
+    overflow-x: hidden;
+}
+.parent__section{
+    margin-top: 50px;
+    box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    background: $White;
+}
+.no_gutters{
+    padding: 0;
+    margin: 0;
+}
+.relative{
+    position: relative;
+}
+.hellper_class{
+    width: 135px !important;
+    border: 1px solid $Gray !important;
+    padding-left: 10px;
+    background: $Gray !important;
+    color: $White;
+    &::placeholder{
+        font-family: $Main_1 !important;
+        text-transform: capitalize;
+    }
+}
+.burger{
+    content: '';
+    border-radius: 10px;
+    background: red;
+    display: block;
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    cursor: pointer;
+    span{
+        content: '';
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        width: 25px;
+        height: 5px;
+        background: green;
+        display: none;
+        transition: all .3s linear;
+        &::after{
+            content: '';
+            position: absolute;
+            top: 7px;
+            left: 0;
+            width: 25px;
+            height: 5px;
+            background: green;
+            transition: all .3s linear;
+        }
+        &::before{
+            content: '';
+            position: absolute;
+            top: -7px;
+            left: 0;
+            width: 25px;
+            height: 5px;
+            background: green;
+            transition: all .3s linear;
+        }
+    }
+}
+
+.toggler{
+    &::before{
+        transform: rotate(-45deg);
+        margin-top: 4px;
+    }
+    &::after{
+        transform: rotate(45deg);
+        margin-top: -9px;
+    }
+}
+.burger{
+    span.toggler{
+        height: 0px;
+    }
+}
+.open{
+    display: block !important;
+}
