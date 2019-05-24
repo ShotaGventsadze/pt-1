@@ -22,16 +22,24 @@
         width: 135px;
         margin-bottom: 15px;
     }
-}
-@media screen and (max-width:769px){
     .main__content{
         margin: 20px;
+    }
+}
+@media screen and (max-width:769px){
+    .main_content_wrap .main_title{
+        margin-left: 35px;
     }
     .buttons{
         width: 100%;
     }
     .fixed{
         display: none;
+    }
+    .burger{
+        span{
+            display: block;
+        }
     }
 }
 @media screen and (max-width:576px){
@@ -46,4 +54,21 @@
     .data_arrow {
         top: 12px;
     }
+    .burger{
+        span{
+            right: 20px;
+        }
+    }
+}
+@media screen and (max-width:320px){
+   .ip_box{
+       margin: auto;
+       width: unset;
+   }
+   .container{
+    padding-right: 0px; 
+   }
+}
+.open{
+    display: block;
 }
